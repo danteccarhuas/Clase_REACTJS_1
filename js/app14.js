@@ -47,5 +47,7 @@ console.log('Alejandra esta aprendiendo: '+alejandra.aprendiendo);
 let total = personas.reduce((edadTotal,persona)=>{
     return edadTotal + persona.edad;
 },0);
-
-console.log(total / 5);
+//Total de edades
+console.log(total);
+//Promedio de edades
+console.log(total / personas.length);

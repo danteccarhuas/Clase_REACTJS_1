@@ -12,6 +12,11 @@ let frameworks = ['ReactJS','Laravel','Django']
 //let [ultimo] = lenguages.reverse();
 //console.log(ultimo);
 
+let [ultimo] = [...lenguages].reverse();
+
+console.log(lenguages);
+console.log(ultimo);
+
 function suma(a,b,c){
     console.log(a+b+c);
 }

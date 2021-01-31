@@ -2,7 +2,7 @@
 
 const aplicarDescuento = new Promise((resolve,reject)=>{
     setTimeout(()=>{
-        let descuento = true;
+        let descuento = false;
         if(descuento){
             resolve('Descuento aplicado!')
         }else{
@@ -15,4 +15,4 @@ aplicarDescuento.then(resultado=>{
 }).catch(error=>{
     console.log(error);
 });
-//console.log(aplicarDescuento);
+console.log(aplicarDescuento);
